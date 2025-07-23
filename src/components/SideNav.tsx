@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
-import hotGame from "@/../public/icons/nav-hotgames.svg";
 import slot from "@/../public/icons/nav-slot.svg";
 import sport from "@/../public/icons/nav-sport.svg";
 import live from "@/../public/icons/nav-live.svg";
@@ -12,11 +10,21 @@ import pvp from "@/../public/icons/nav-pvp.svg";
 import gift from "@/../public/icons/nav-gift.svg";
 import reward from "@/../public/icons/nav-reward.svg";
 import fish from "@/../public/icons/nav-fish.svg";
-import poker from "@/../public/icons/poker.svg"; // placeholder icon
+import poker from "@/../public/icons/poker.svg";
+import subrat1 from "@/../public/icons/subrat1.svg";
+import subrat from "@/../public/icons/subrat.svg";
+import subrat2 from "@/../public/icons/subrat2.svg";
+import subrat3 from "@/../public/icons/subrat3.svg";
+import subrat4 from "@/../public/icons/subrat4.svg";
+import mission from "@/../public/icons/mission.svg";
+import navEsport from "@/../public/icons/nav-esport.svg";
+import subrat5 from "@/../public/icons/subrat5.svg";
+import subrat6 from "@/../public/icons/subrat6.svg";
+
 const menuData = [
   {
     title: "Games",
-    icon: require("@/../public/icons/subrat1.svg"),
+    icon: subrat1,
     redirect: "/games",
   },
   {
@@ -54,7 +62,7 @@ const menuData = [
   },
   {
     title: "Promotion",
-    icon: require("@/../public/icons/subrat.svg"),
+    icon: subrat,
     redirect: "/promotion",
   },
   {
@@ -69,22 +77,22 @@ const menuData = [
   },
   {
     title: "friends",
-    icon: require("@/../public/icons/subrat2.svg"),
+    icon: subrat2,
     redirect: "/invite-friends",
   },
   {
     title: "Manual",
-    icon: require("@/../public/icons/subrat3.svg"),
+    icon: subrat3,
     redirect: "/manual",
   },
   {
     title: "VIP",
-    icon: require("@/../public/icons/subrat4.svg"), // placeholder
+    icon: subrat4,
     redirect: "/vip",
   },
   {
     title: "Mission",
-    icon: require("@/../public/icons/mission.svg"),  // placeholder
+    icon: mission,
     redirect: "/mission",
   },
   {
@@ -94,17 +102,17 @@ const menuData = [
   },
   {
     title: "E-sports",
-    icon: require("@/../public/icons/nav-esport.svg"),
+    icon: navEsport,
     redirect: "/e-sports",
   },
   {
     title: "APP",
-    icon: require("@/../public/icons/subrat5.svg"), // placeholder
+    icon: subrat5,
     redirect: "/appp",
   },
   {
     title: "Chat",
-    icon: require("@/../public/icons/subrat6.svg"),
+    icon: subrat6,
     redirect: "/chat",
   },
   {
