@@ -77,10 +77,10 @@ const Footer = () => {
             className="w-[72px] h-[72px] rounded-full object-cover"
           />
           <p className="text-white text-xs font-[number:var(--www-wwwMbuzz88-com-segoe-UI-regular-font-weight)] text-[length:var(--www-wwwMbuzz88-com-segoe-UI-regular-font-size)] tracking-[var(--www-wwwMbuzz88-com-segoe-UI-regular-letter-spacing)] leading-[var(--www-wwwMbuzz88-com-segoe-UI-regular-line-height)] [font-style:var(--www-wwwMbuzz88-com-segoe-UI-regular-font-style)]">
-            winxebet.com website is operated by company, under license number
-            AE6427EQRW00034 issued to it and regulated by Gaming Services
+            RJR999.com website is operated by company, under license number
+            AE6427EQRW00039 issued to it and regulated by Gaming Services
             Provider N.V., authorized by the Government of Curaçao under license
-            number 1668JAZ.
+            number 1678JAZ.
           </p>
         </div>
 
